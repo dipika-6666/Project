@@ -22,9 +22,7 @@ header {
     margin-left: 20px;
 }
 
-#menu-bar {
-    font-size: 24px;
-    cursor: pointer;
+#nav-menu {
     margin-right: 20px;
 }
 
@@ -62,15 +60,6 @@ nav a {
     height: auto;
 }
 
-.text {
-    position: absolute;
-    top: 50%;
-    right: 20%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    color: #fff;
-}
-
 /* Feature Boxes */
 #feature-boxes {
     display: flex;
@@ -94,4 +83,8 @@ nav a {
     font-size: 36px;
     color: #007a5a;
     margin-bottom: 10px;
+}
+
+.text {
+    color: #fff; /* Change text color to match header color */
 }
