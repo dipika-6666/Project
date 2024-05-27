@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blast Fintech</title>
     <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -36,6 +37,37 @@
         </span>
     </section>
 
+    <!-- Signup Form Section -->
+    <section id="form-section">
+        <h2>Sign Up</h2>
+        <form id="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label for="year-joined">Year Joined:</label>
+            <select id="year-joined" name="year-joined" required>
+                <option value="">Select Year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <div id="form-output"></div>
+    </section>
+    
     <!-- Feature Boxes -->
     <section id="feature-boxes">
         <h2>Our Features</h2>
