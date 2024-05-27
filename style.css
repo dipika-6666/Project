@@ -7,6 +7,7 @@ body {
     color: #333;
 }
 
+
 /* Header Section */
 header {
     background-color: #007a5a;
@@ -102,6 +103,87 @@ header {
     color: #007a5a;
     margin-bottom: 10px;
 }
+
+/* Form Section */
+#form-section {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#form-section h2 {
+    color: #007a5a;
+    margin-bottom: 20px;
+}
+
+#form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-section label {
+    margin-top: 10px;
+}
+
+#form-section input, #form-section select {
+    margin-top: 5px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007a5a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#form-output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    color: #007a5a;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#load-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007a5a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#more-content {
+    margin-top: 20px;
+    display: none;
+}
+
 
 /* Footer */
 footer {
