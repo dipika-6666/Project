@@ -51,7 +51,7 @@ nav a {
     width: 100vw;
     height: calc(100vh - 80px); /* Adjust height as needed */
     display: inline-block;
-    text-align: center;
+    text-align: right;
     position: relative;
 }
 
@@ -74,7 +74,7 @@ nav a {
     max-width: 300px; /* Limit maximum width of each box */
     margin: 10px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #007a5a;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -86,5 +86,5 @@ nav a {
 }
 
 .text {
-    color: #fff; /* Change text color to match header color */
+    color: #007a5a; /* Change text color to match header color */
 }
