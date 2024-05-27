@@ -39,3 +39,24 @@ document.getElementById('load-more').addEventListener('click', function() {
     document.getElementById('more-content').innerHTML = moreContent;
     this.style.display = 'none'; // Hide the button after loading more content
 });
+
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(event) {
+        event.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Scroll to form section when signup button is clicked
+document.getElementById('signup-button').addEventListener('click', function(event) {
+    event.preventDefault();
+    const formSection = document.getElementById('form-section');
+    formSection.scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+
