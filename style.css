@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #006400;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu-bar {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Slider Section */
+.slider {
+    overflow: hidden;
+}
+
+.slide {
+    width: 100vw;
+    height: calc(100vh - 80px); /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Feature Boxes */
+.feature-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    text-align: center;
+}
+
+.icon {
+    font-size: 36px;
+    color: #006400;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #006400;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
